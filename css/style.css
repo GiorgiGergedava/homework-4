@@ -1,0 +1,139 @@
+header {
+    width: 1440px;
+    margin: auto;
+    background-color: #D9D9D9;
+    /* vertical-align: middle; */
+
+}
+
+.homelogo {
+    /* background-color: aqua; */
+    display: inline-block;
+    vertical-align: middle;
+    margin: 50px 0 50px 130px;
+
+}
+
+nav {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 287px;
+}
+
+li {
+    display: inline-block;
+    font-size: 24px;
+    font-family: "ALK Life", sans-serif;
+
+}
+
+.active {
+    color: #A62B28;
+}
+
+.inactive {
+    color: #717276;
+}
+
+.textt {
+    margin-left: 36px;
+    margin-right: 36px;
+}
+
+section {
+    width: 1180px;
+    margin: auto;
+    margin-block: 160px;
+    /* vertical-align: top; */
+
+}
+
+.section_head {
+    margin: 160px 40px 0 130px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.section_title {
+    font-size: 32px;
+    color: #717276;
+    font-family: "DejaVu Sans", sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 160px;
+    /* vertical-align: bottom; */
+
+}
+
+
+article {
+    width: 380px;
+    margin-top: 40px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.article2 {
+    margin-inline: 16px;
+}
+
+h2 {
+    font-family: "DejaVu Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 39px;
+    color: #717276;
+
+
+
+}
+
+p {
+    font-family: "ALK Life", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 39px;
+    color: #717276;
+    margin-block: 8px 8px;
+    color: #000000;
+
+}
+
+.price {
+    font-family: DejaVu Sans;
+    font-size: 24px;
+    font-weight: 700;
+    color: #A62B28;
+}
+
+footer {
+    width: 1440px;
+    height: 248px;
+    margin: auto;
+    background-color: #F6D0C9;
+}
+
+.footer_nav1 {
+    display: inline-block;
+    
+    /* vertical-align: top; */
+}
+
+.footer_textt {
+    font-family: "ALK Life", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #000000;
+    /* display: inline-block; */
+}
+
+
+
+.footer_nav2 {
+    display: inline-block;
+    /* vertical-align: top; */
+}
+
