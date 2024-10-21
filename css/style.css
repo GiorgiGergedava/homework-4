@@ -1,14 +1,29 @@
-header {
-    width: 1440px;
-    margin: auto;
-    background-color: #D9D9D9;
-    /* vertical-align: middle; */
+.container {
+    /* width: min(100%, 1440px); */
 
 }
 
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+
+    background-color: #D9D9D9;
+
+
+}
+
+.headerbox {
+    display: flex;
+}
+
+
+
 .homelogo {
     /* background-color: aqua; */
-    display: inline-block;
+
     vertical-align: middle;
     margin: 50px 0 50px 130px;
 
@@ -43,16 +58,23 @@ li {
 section {
     width: 1180px;
     margin: auto;
-    margin-block: 160px;
-    /* vertical-align: top; */
+    padding-bottom: 50px;
+
+
+
+}
+
+
+.section_head_box {
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+
 
 }
 
 .section_head {
-    margin: 160px 40px 0 130px;
-    display: inline-block;
-    vertical-align: middle;
-
+    padding-top: 165px;
 }
 
 .section_title {
@@ -92,7 +114,7 @@ h2 {
 
 p {
     font-family: "ALK Life", sans-serif;
-    font-size: 24px;
+    font-size: 15px;
     font-weight: 700;
     line-height: 39px;
     color: #717276;
@@ -109,16 +131,22 @@ p {
 }
 
 footer {
-    width: 1440px;
-    height: 248px;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
     background-color: #F6D0C9;
 }
 
+.ulfooter {
+    display: flex;
+    column-gap: 50px;
+}
+
 .footer_nav1 {
-    display: inline-block;
-    
-    /* vertical-align: top; */
+
+    display: flex;
+    margin: auto;
 }
 
 .footer_textt {
@@ -127,13 +155,12 @@ footer {
     font-weight: 400;
     line-height: 30px;
     color: #000000;
-    /* display: inline-block; */
 }
 
 
 
 .footer_nav2 {
-    display: inline-block;
-    /* vertical-align: top; */
+    display: flex;
+    column-gap: 50px;
+    margin: auto;
 }
-
